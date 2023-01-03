@@ -1,0 +1,15 @@
+version: "3"
+services:
+  playground:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    restart: always
+    working_dir: /workspace
+    tty: true
+    volumes:
+      - .:/workspace
+      - rust-target:/workspace/target
+
+volumes:
+  rust-target:

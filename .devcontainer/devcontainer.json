@@ -1,0 +1,15 @@
+{
+  "name": "rust-playground",
+  "dockerComposeFile": ["../docker-compose.yml"],
+  "service": "playground",
+  "workspaceFolder": "/workspace",
+  "settings": {},
+  "extensions": [
+    "EditorConfig.EditorConfig",
+    "rust-lang.rust-analyzer",
+    "GitHub.copilot",
+    "vadimcn.vscode-lldb",
+    "bungcip.better-toml",
+    "serayuzgur.crates"
+  ]
+}
